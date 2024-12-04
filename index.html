@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Morais Corte</title>
+  <meta name="title" content="Barber - Barbers & Hair Cutting">
+  <meta name="description" content="This is a barber html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logo-barbearia.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Celular :</p>
+
+            <a href="tel:01234567895" class="item-link">(12) 98247-6364</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Horários/Dias de Funcionamento :</p>
+
+            <p class="item-text">Terça-feira - Sábado, 10 am - 19 pm</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.instagram.com/moraiscorte/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="Morais Corte" width="220px">
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Início</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Serviços</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#pricing" class="navbar-link" data-nav-link>Preços</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contatos" class="navbar-link" data-nav-link>Contatos</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="btn has-before">
+          <span class="span">Entre em Contato</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Morais Corte</h1>
+
+          <p class="hero-text">
+            A Morais Corte é uma barbearia moderna e acolhedora, dedicada a oferecer um 
+            atendimento personalizado e de alta qualidade para homens que buscam um corte de cabelo impecável e uma experiência de cuidado única.
+          </p>
+
+          <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="btn has-before">
+            <span class="span">Entre em Contato</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Serviços</h2>
+
+          <p class="section-text text-center">
+            Os seguintes Serviços que a barbearia Morais Corte oferece:
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte</a>
+                </h3>
+
+                <p class="card-text">
+                  O corte de cabelo da Barbearia Morais Corte é personalizado para realçar o estilo único de cada cliente, com precisão e técnicas modernas.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <center><div class="card-icon">
+                  <img src="assets/images/barba-corte.png" width="100px">
+                </div></center>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Barba</a>
+                </h3>
+
+                <p class="card-text">
+                  A barba na Barbearia Morais Corte é feita com atenção aos detalhes, proporcionando um acabamento preciso e elegante, de acordo com o estilo de cada cliente.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <center><div class="card-icon">
+                  <img src="assets/images/barba.png" width="100px">
+                </div></center>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Pigmentação</a>
+                </h3>
+
+                <p class="card-text">
+                  A pigmentação de cabelo e barba da Barbearia Morais Corte oferece um acabamento natural e duradouro, realçando o visual com mais definição e intensidade.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <center><div class="card-icon">
+                  <img src="assets/images/alisamento.png" width="100px">
+                </div></center>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Alisamento</a>
+                </h3>
+
+                <p class="card-text">
+                  O alisamento na Barbearia Morais Corte é realizado com produtos de alta qualidade, proporcionando fios lisos, sedosos e sem frizz.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <center><div class="card-icon">
+                  <img src="assets/images/luzes.png" width="100px">
+                </div></center>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte + Luzes</a>
+                </h3>
+
+                <p class="card-text">
+                  Na Barbearia Morais Corte, o corte de cabelo combinado com luzes é a escolha perfeita para quem deseja um visual moderno e cheio de estilo.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <center><div class="card-icon">
+                  <img src="assets/images/platinado.png" width="100px">
+                </div></center>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Corte + Platinado</a>
+                </h3>
+
+                <p class="card-text">
+                  Se você busca um visual ousado e marcante, o corte + platinado na Barbearia Morais Corte é a opção ideal.
+                </p>
+
+                <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+        style="background-image: url('./assets/images/pricing-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Valores dos Cortes e do Plano Mensal</h2>
+
+          <p class="section-text text-center">
+            Na Barbearia Morais Corte, oferecemos serviços de qualidade com preços acessíveis. Confira a seguir nossas opções de preços.
+          </p>
+
+          <div class="pricing-tab-container">
+
+            <ul class="tab-filter">
+
+              <li>
+                <button class="filter-btn active" data-filter-btn="Cortes">
+                  <div class="btn-icon">
+                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Cortes</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="Barba">
+                  <div class="btn-icon">
+                    <center><div class="card-icon">
+                      <img src="assets/images/barba-corte.png" width="64px">
+                    </div></center>
+                  </div>
+
+                  <p class="btn-text">Barba</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="Pigmentação">
+                  <div class="btn-icon">
+                    <center><div class="card-icon">
+                      <img src="assets/images/barba.png" width="64px">
+                    </div></center>
+                  </div>
+
+                  <p class="btn-text">Pigmentação</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="Alisamento">
+                  <div class="btn-icon">
+                    <center><div class="card-icon">
+                      <img src="assets/images/alisamento.png" width="64px">
+                    </div></center>
+                  </div>
+
+                  <p class="btn-text">Alisamento</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="Mensal">
+                  <div class="btn-icon">
+                    <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Plano Mensal</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <ul class="grid-list">
+
+              <li data-filter="Cortes">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/corte.jpeg" alt="">
+                      <style>
+                         #pricing .img-holder img{
+                          width: 100px;
+                          height: 100px;
+                          border-radius: 40px;
+                         }
+                      </style>
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte</h3>
+
+                    <p class="card-text">Tempo do corte: 30-60 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="89">R$ 35,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Cortes">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/luzes.jpeg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte + Luzes</h3>
+
+                    <p class="card-text">Tempo do corte: 60-90 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="45">R$ 75,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Cortes">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/platinado.jpeg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Corte + Platinado</h3>
+
+                    <p class="card-text">Tempo do corte: 60-90 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="35">R$ 85,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Barba">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/barba.jpeg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Barba</h3>
+
+                    <p class="card-text">Tempo do corte: 30-60 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="27">R$ 25,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Pigmentação">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/pigmentacao.jpeg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Pigmentação</h3>
+
+                    <p class="card-text">Tempo do corte: 60-90 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="56">R$ 15,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Alisamento">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/alisamento.jpeg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Alisamento</h3>
+
+                    <p class="card-text">Tempo do corte: 60-90 Minutos</p>
+                  </div>
+
+                  <data class="card-price" value="63">R$ 15,00</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Mensal">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder">
+                    <img src="assets/images/pricing-1.jpg" alt="">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Plano Mensal</h3>
+
+                    <p class="card-text">Plano Mensal, no qual dura o Mês todo</p>
+                  </div>
+
+                  <data class="card-price" value="43">R$ 90,00</data>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="section gallery" id="gallery" aria-label="photo gallery">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">Galeria de Fotos</h2>
+
+              <p class="section-text">
+                Confira algumas fotos que mostram o resultado impecável dos cortes realizados na Barbearia Morais Corte. 
+              </p>
+            </div>
+
+            <a href="https://www.instagram.com/moraiscorte/" class="btn has-before">
+              <span class="span">Veja mais</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/corte1.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cortes</h3>
+
+                  <p class="card-text">Morais Corte</p>
+
+                  <a href="https://www.instagram.com/moraiscorte/" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/corte2.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cortes</h3>
+
+                  <p class="card-text">Morais Corte</p>
+
+                  <a href="https://www.instagram.com/moraiscorte/" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/corte3.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cortes</h3>
+
+                  <p class="card-text">Morais Corte</p>
+
+                  <a href="https://www.instagram.com/moraiscorte/" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="./assets/images/corte4.jpeg" width="422" height="550" loading="lazy" alt="Hair Cutting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cortes</h3>
+
+                  <p class="card-text">Morais Corte</p>
+
+                  <a href="https://www.instagram.com/moraiscorte/" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" id="contatos" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="assets/images/logo.png" alt="Morais Corte" width="220px">
+          </a>
+
+        </div>
+
+        <center><div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Links</p>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/moraiscorte/" class="footer-link has-before">Instagram</a>
+            </li>
+
+            <li>
+              <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="footer-link has-before">Whatsapp</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contatos</p>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="contact-link">
+                Avenida Elisio Galdino Sobrinho n 453 São José dos Campos
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="https://api.whatsapp.com/send/?phone=12982476364&text&type=phone_number&app_absent=0" class="contact-link">
+                +55 (12) 982476364
+                </a>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+              <span class="contact-link">Terça-feira - Sábado, 10 am - 19 pm</span>
+            </li>
+
+          </ul>
+
+        </div></center>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 | Desenvolvido por <a href="https://matheuscarvalho08.github.io/Portfolio-pessoal/" class="copyright-link">Matheus Carvalho</a>. 
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
